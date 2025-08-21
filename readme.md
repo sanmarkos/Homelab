@@ -21,11 +21,7 @@ homelab/
 │── README.md               # Documentation
 
 ```
-
-## Overview  
-This homelab is designed to **simulate a small enterprise IT environment**.  
-It brings together core technologies like **Active Directory**, **SIEM monitoring**, and a **Proxy/Firewall**, so I can learn and practice in a hands-on way.  
-
+  
 ---
 #  What this project covers
 
@@ -76,7 +72,7 @@ Here’s how everything connects:
                   └───────▲───────┘
                           │
                           │
-                ┌───────┴─────────────┐
+                ┌─────────────────────┐
                 │  Kali Linux Proxy   │
                 │ (Firewall + Squid)  │
                 └───┬─────┬─────┬─────┘
@@ -87,12 +83,12 @@ Here’s how everything connects:
 │ Windows Server │  │ Wazuh SIEM│   │  Ubuntu Client  │
 │ (Active Dir +  │  │  (Ubuntu) │   │ (Monitored by   │
 │ DNS + GPO)     │  └───────────┘   │    Wazuh)       │
-└───────┬────────┘                   └───────┬────────┘
+└───────┬────────┘                  └────────┬────────┘
         │                                    │
         │ Policies                           │ Traffic + Logs
         │                                    │
 ┌───────▼────────┐                   ┌───────▼─────────┐
-│ Windows 10 PC  │ ----------------▶ │  Wazuh SIEM     │
+│ Windows 10 PC  │ ----------------▶│   Wazuh SIEM     │
 │ (Domain-joined │   Logs + Alerts   │  Dashboard      │
 │   workstation) │                   └─────────────────┘
 └────────────────┘
@@ -129,4 +125,5 @@ This way, I understand not just the tools, but also how they interact in an ente
 
 ## Author 
 **Sutharsan**
+
 sutharsansenthil46@gmail.com

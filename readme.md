@@ -51,9 +51,9 @@ It brings together core technologies like **Active Directory**, **SIEM monitorin
 
 - **Windows Server 2019** → Active Directory Domain Controller (DNS, GPO)  
 - **Windows 10 Client** → Joined to AD, policies enforced  
-- **Ubuntu ** → Wazuh SIEM & Dashboard 
+- **Ubuntu** → Wazuh SIEM & Dashboard 
 - **Kali Linux** → Squid Proxy + Firewall rules
-- **Windows 10 ** → connected to wazuh agent to monitor the machine 
+- **Windows 10** → connected to Wazuh agent to monitor the machine 
 ---
 
 ## Workflow  

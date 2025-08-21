@@ -1,0 +1,5 @@
+1755704519.031     10 ::1 TCP_DENIED/403 3783 GET http://facebook.com/ - HIER_NONE/- text/html
+1755758114.593      1 ::1 TCP_DENIED/403 3783 GET http://facebook.com/ - HIER_NONE/- text/html
+1755758130.392      0 ::1 TCP_DENIED/403 3786 GET http://instagram.com/ - HIER_NONE/- text/html
+1755758154.409      0 ::1 TCP_DENIED/403 3792 GET http://youtube.com.com/ - HIER_NONE/- text/html
+1755758177.511    451 ::1 TCP_MISS/301 860 GET http://google.com/ - HIER_DIRECT/142.250.205.142 text/html

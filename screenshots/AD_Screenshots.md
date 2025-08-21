@@ -6,3 +6,6 @@
 
 ## Active Directory Group Policy
 <img width="939" height="764" alt="Screenshot 2025-08-21 115729" src="https://github.com/user-attachments/assets/de91846a-89e4-4d62-a14c-782c6d21ace9" />
+
+## Windows Client user connected to the domain 
+<img width="877" height="646" alt="image" src="https://github.com/user-attachments/assets/b727e228-8204-4782-b246-af4b75b592ac" />
